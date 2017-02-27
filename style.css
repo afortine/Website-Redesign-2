@@ -10,7 +10,7 @@
 
 	font-size: 20px;
     padding-top: 80px;
-    padding-right: 50px;
+    padding-right: 0px;
 }
 
 a:link{
@@ -68,7 +68,6 @@ div.content_title{
 }
 
 .content {
-	margin: 1.5cm;
 }
 
 html {
@@ -78,6 +77,9 @@ html {
 
 body {
     margin: 0 0 100px; /* bottom = footer height */
+}
+
+.margin {
     padding: 25px;
 }
 
@@ -105,7 +107,6 @@ div.servicetable{
     padding: 40px 10px 20px 10px;
     margin: 0px 10px 10px 0px;
     overflow: hidden;
-    background: url(images\image placeholder.png) center right no-repeat;
     background-size: cover;
     float: left;
     cursor: pointer;
@@ -159,7 +160,6 @@ div {
 .contact div{
     font-family: 'Verdana', sans-serif;
     font-weight: 550;
-    background: #FFF;
     display: inline-block;
     padding: 10px 10px 5px 10px;
     margin-top: 0px;
@@ -212,4 +212,8 @@ div {
 
 .aku:hover {
     transform: scale(2); 
+}
+
+.blue {
+    background-color: #cefff5;
 }
